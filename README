@@ -1,0 +1,46 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1689
+
+This tiny script (my first one) can convert this:
+
+On 2006/10/23@16:47, <Mauro, Sauco> wrote:
+  > This is a post with a very long text without wrapping of text that can go on and on forever and its very annoying because it will make the reply almost impossible to understand.
+  > This is another very long line that looks very ugly because some e-mail clients will wrap it automatically but will not consider the indentation mark.
+  > I love inline replaying because:   
+  > 1. Inline posting creates a natural, chronological ordering to each segment of the discussion stored within a message.
+  > 2. Inline posting promotes the practice of trimming quoted text to prevent signature blocks, free-mail-service ads, and corporate disclaimers piling up in a growing useless "tail" at the end.
+  > 3. nline posting doesn't require the poster to recap each issue being addressed, as comments can be made point-for-point against the original message, making for a more structured, disciplined and unambiguous reply.
+
+Into this:
+
+On 2006/10/23@16:47, <Mauro, Sauco> wrote:
+  Mauro> This is a post with a very long text without wrapping of text   
+  Mauro> that can go on and on forever and its very annoying because it
+  Mauro> will make the replay almost impossible to understand.  This is
+
+Then you can replay inline like this.
+   
+  Mauro> another very long line that looks very ugly because some e-mail   
+  Mauro> clients will wrap it automatically but will not consider the
+  Mauro> indentation mark.  I love inline replaying because: 1. Inline
+
+Or like this.
+
+  Mauro> posting creates a natural, chronological ordering to each   
+  Mauro> segment of the discussion stored within a message.  2. Inline
+  Mauro> posting promotes the practice of trimming quoted text to   
+  Mauro> prevent signature blocks, free-mail-service ads, and corporate
+  Mauro> disclaimers piling up in a growing useless "tail" at the end.
+
+I agree !
+
+  Mauro> 3. nline posting doesn't require the poster to recap each issue
+  Mauro> being addressed, as comments can be made point-for-point
+  Mauro> against the original message, making for a more structured,
+  Mauro> disciplined and unambiguous reply.
+
+In case you didn't notice, the text is now wrapped at 72 and indented with the recipients name.
+How you like it ?
+
+Plese feel free to drop me an e-mail with questions, suggestions, etc.
+
+Read the header of the script for keybidings.
